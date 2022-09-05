@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "BEYERDYNAMIC - DT 770 PRO",
+    "feature": "Closed-Back Studio Headphone",
+    "price": 10999,
+    "imgUrl": "https://cdn.shopify.com/s/files/1/0153/8863/products/beyerdynamic-dt-770-pro-headphone-zone-13980464185407_500x.jpg?v=1579662488"
+  },
+  {
+    "id": 2,
+    "name": "SONY - WF-C500",
+    "feature": "Truly Wireless Earbuds With IPX4 Rating",
+    "price": 5990,
+    "imgUrl": "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Sony-WF-C500-Black-2_500x.jpg?v=1642057984"
+  },
+  {
+    "id": 3,
+    "name": "AUDIO-TECHNICA - ATH-M50X",
+    "feature": "Closed-Back Studio Headphone",
+    "price": 11299,
+    "imgUrl": "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Audio-technica-m50x-1160-1160-Black_500x.jpg?v=1590592477"
+  },
+  {
+    "id": 4,
+    "name": "EPOS - PC 5 CHAT",
+    "feature": "Wired Headphones for Calls",
+    "price": 1479,
+    "imgUrl": "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-EPOS-PC5-CHAT-03_500x.jpg?v=1644040398"
+  },
+  {
+    "id": 5,
+    "name": "BLON - BL-03",
+    "feature": "In-Ears With 1 Dynamic Driver",
+    "price": 1990,
+    "imgUrl": "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-BLON-BL-03-Silver-1160-1160-6_500x.jpg?v=1593432193"
+  }
+]
