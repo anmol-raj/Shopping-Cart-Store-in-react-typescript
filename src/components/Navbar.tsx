@@ -1,7 +1,9 @@
 import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { useShoppingCart } from "../context/ShoppingCartContext";
 
 const NavbarComponent: React.FC<{}> = ({}) => {
+  const { openCart, cartQuantity } = useShoppingCart();
   return (
     <>
       <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
@@ -19,6 +21,7 @@ const NavbarComponent: React.FC<{}> = ({}) => {
           </Nav>
           <Button
             className="rounded"
+            onClick={openCart}
             variant="outline-primary"
             style={{ width: "3rem", height: "3rem", position: "relative" }}
           >
@@ -27,8 +30,6 @@ const NavbarComponent: React.FC<{}> = ({}) => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 14 14"
-                height="auto"
-                width="auto"
               >
                 <path
                   stroke="currentColor"
@@ -72,7 +73,7 @@ const NavbarComponent: React.FC<{}> = ({}) => {
                 transform: "translate(25%,25%)",
               }}
             >
-              3
+              {cartQuantity}
             </div>
           </Button>
         </Container>
